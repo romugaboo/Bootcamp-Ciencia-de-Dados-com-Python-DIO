@@ -43,10 +43,10 @@ while True:
 			print("Operação falhou. Número de saques diários excedidos.")
 
 		elif saque > 0:
-					num_saques += 1
-					saldo -= saque
-					extrato += f"Saque = -R$: {saque}\n"
-					print("Saque efetuado com sucesso.")
+			num_saques += 1
+			saldo -= saque
+			extrato += f"Saque = -R$: {saque}\n"
+			print("Saque efetuado com sucesso.")
 
 		else:
 			print("Operação falhou. O valor informado é inválido.")
