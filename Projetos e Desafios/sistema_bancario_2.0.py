@@ -142,4 +142,5 @@ def main():
 		else:
 			print("Operação inválida, tente novamente.")
 
-main()
+if __name__ == "__main__":
+	main()
