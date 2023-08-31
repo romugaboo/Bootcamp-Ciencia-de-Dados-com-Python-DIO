@@ -1,9 +1,9 @@
 use ecommerce;
 
 -- Inserindo registros na tabela client
-INSERT INTO client (Fname, Minit, Lname, CPF, Address) VALUES ('Julio', 'C.', 'Okuda', '11111111111', 'SP');
-INSERT INTO client (Fname, Minit, Lname, CPF, Address) VALUES ('Solange', 'M.', 'Okita','21456789960', 'RJ');
-INSERT INTO client (Fname, Minit, Lname, CPF, Address) VALUES ('Lucas', 'Y.', 'Yudy', '67258963205', 'MS');
+INSERT INTO client (Fname, Minit, Lname, CPF, Address) VALUES ('Larissa', 'C.', 'Ramos', '11111111111', 'SP');
+INSERT INTO client (Fname, Minit, Lname, CPF, Address) VALUES ('Georffren', 'N.', 'Xavier','21456789960', 'RJ');
+INSERT INTO client (Fname, Minit, Lname, CPF, Address) VALUES ('Alan', 'F.', 'Ferreira', '67258963205', 'MS');
 
 -- Inserindo registros na tabela supplier
 INSERT INTO supplier (SocialName, CNPJ, Contact) VALUES ('Nihontech', '123654985632569', '119849849');
@@ -21,7 +21,7 @@ INSERT INTO productSupplier (idPsSupplier, idPsProduct, quantity) VALUES ('2', '
 INSERT INTO productSupplier (idPsSupplier, idPsProduct, quantity) VALUES ('1', '3', '200');
 INSERT INTO productSupplier (idPsSupplier, idPsProduct, quantity) VALUES ('1', '4', '2000');
 
--- Inserindo registros na tabela storage --
+-- Inserindo registros na tabela storage
 INSERT INTO storage (storageLocation) VALUES ('Rio de Janeiro - RJ');
 INSERT INTO storage (storageLocation) VALUES ('São Paulo - SP');
 INSERT INTO storage (storageLocation) VALUES ('Salvador - BA');
